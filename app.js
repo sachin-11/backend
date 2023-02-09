@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 
-app.get('/', (req, res) => {
+app.get('/demo', (req, res) => {
     res.json({ message: 'Hello backend this is sachin..'})
 })
 
